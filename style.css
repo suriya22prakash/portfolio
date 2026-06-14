@@ -1,0 +1,123 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Merriweather";
+    background-color: #a2d6f9;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: #3f88c5;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.section-one__title {
+    font-size: 55px;
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__list,
+.section-four__list,
+.section-five p {
+    margin-top: 20px;
+}
+
+.section-five {
+     background-color: #3f88c5;
+    color: rgb(250, 241, 241);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section-four a {
+    color: skyblue;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #002387;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    height: 300px;
+    border-radius: 6px;
+    vertical-align: top;
+}
+
+.section-four {
+    background-color: #002387;
+    color:#fdf2f2;
+    padding: 10px;
+    width: 550px;
+    height: 300px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.form{
+    margin: 20px;
+
+}
+.form__input,.form__submit{
+    margin: 10px;
+}
+.form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.form__option{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+    margin-left: 10px;
+}
+.form__submit{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border: none;
+
+}
+.section-five a{
+    color: black;
+    font-weight: bold;
+}
